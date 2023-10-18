@@ -1,0 +1,65 @@
+.about{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    text-align: center;
+    margin: 0 auto;
+}
+.about-title{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: pink;
+    font-family: 'Satisfy', cursive;
+}
+.about-desc{
+    font-weight: 400;
+    font-size: 0.9rem;
+    max-width: 51rem;
+    padding: 0 2rem;
+}
+
+.aboutbars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.aboutbar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(34, 34, 34);
+}
+.about-img{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+.aboutbar-text>p{
+    font-size: 0.9rem;
+    font-weight: 400;
+
+}
+
+
+@media screen and (max-width:720px){
+  .aboutbar-text>p{
+    font-size: 3vw;
+  }  
+  .about-img{
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+  .aboutbar-text>h2{
+    font-size: 5vw;
+  }
+}
